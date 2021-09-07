@@ -1,8 +1,8 @@
 A. Python3.6 installation on Linux:
 
 1. Run as a root user:
-$ sudo -i
-$ yum -y update && yum -y upgrade
+    $ sudo -i
+    $ yum -y update && yum -y upgrade
 
 2. Prior to installing Python in CentOS 7, let’s make sure our system has all the necessary development dependencies:
 $ yum -y groupinstall development
