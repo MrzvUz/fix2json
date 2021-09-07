@@ -61,9 +61,10 @@
     $ cd quickfix
 
 5. In quickfix directory run following commands:
-    
+   The "./configure" command has --enable-static option to create static library.
+
     $ ./configure --enable-static
-    
+
     $ make
 
 
