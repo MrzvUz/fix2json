@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# from fix_lib import quickfix
+
 import quickfix as fix
 import json
 import xml.etree.ElementTree as ET
