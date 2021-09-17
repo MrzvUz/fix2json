@@ -3,7 +3,7 @@
 I am going to be using Linux CentOS 7 for this demo.
 
     a. Install Python.
-
+    
         1. Update your OS or you can update and upgrade at the same time:
 
             sudo yum -y update && sudo yum -y upgrade
@@ -15,17 +15,13 @@ I am going to be using Linux CentOS 7 for this demo.
         3. Download Python 3.9.7 setup in /tmp location and unzip tgz file:
 
             cd /tmp/
-
-            wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz
-            
+            wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz            
             tar xzf Python-3.9.7.tgz
 
         4. Install Python 3.9.7 with alternate installation.
 
             cd Python-3.9.7
-
-            ./configure --enable-optimizations
-            
+            ./configure --enable-optimizations            
             sudo make altinstall
 
         5. Set currently installed Python 3.9.7 as a default Linux Python version:
@@ -36,8 +32,9 @@ I am going to be using Linux CentOS 7 for this demo.
         6. Verify new Python 3.9.7 and PIP version:
 
             python3.9 -V
-
             pip3.9 -V
+
+
 
 
 
