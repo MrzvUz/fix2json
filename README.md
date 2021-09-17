@@ -1,4 +1,4 @@
-# Set up required environment to install Python QuickFix Library and develop you own custom QuickFix Python Library.
+# Set up required environment to install Python QuickFix Library and develop your own custom QuickFix Python Library.
 
 I am going to be using Linux CentOS 7 for this demo.
 
@@ -8,9 +8,9 @@ I am going to be using Linux CentOS 7 for this demo.
 
             sudo yum -y update && sudo yum -y upgrade
         
-        2. Install below pre-requisites:
+        2. Install below pre-requisites for Python and Python Quickfix library:
 
-            sudo yum -y install wget make gcc openssl-devel bzip2-devel
+            sudo yum -y install wget make gcc gcc-c++ glibc-devel openssl-devel bzip2-devel
 
         3. Download Python 3.9.7 setup in /tmp location and unzip tgz file:
 
@@ -18,11 +18,11 @@ I am going to be using Linux CentOS 7 for this demo.
 
             wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz
             
-            tar xzf Python-3.9.1.tgz
+            tar xzf Python-3.9.7.tgz
 
         4. Install Python 3.9.7 with alternate installation.
 
-            cd Python-3.9.1
+            cd Python-3.9.7
 
             ./configure --enable-optimizations
             
